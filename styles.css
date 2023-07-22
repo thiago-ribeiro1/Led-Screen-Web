@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.btn-calcular {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 15px; 
+    right: 15px; 
+}
+
+footer p {
+    font-size: 11px;
+    color: white;
+}
+
+.freepik-text {
+    color: white; 
+}

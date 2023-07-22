@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Led Screen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="https://www.freepik.com/free-vector/concave-led-wall-video-screen-with-glowing-blue-purple-dot-lights-illustration-grid-pattern-led-display-stadium-scene-curved-digital-panel-with-mesh-diode-lamps_9498737.htm" target="_blank">Image by upklyak <span class="freepik-text">on Freepik</span></a>
+
+    <div class="container">
+        <h1>Led Screen</h1>
+        <div class="form-group">
+            <label for="pesoPlaca">Qual o peso da placa?</label>
+            <input type="text" id="pesoPlaca">
+        </div>
+        <div class="form-group">
+            <label for="consumoPlaca">Quanto consome cada placa em Watts?</label>
+            <input type="text" id="consumoPlaca">
+        </div>
+        <div class="form-group">
+            <label for="largura">Qual o tamanho do painel (largura) metros?</label>
+            <input type="text" id="largura">
+        </div>
+        <div class="form-group">
+            <label for="altura">Qual o tamanho do painel (altura) metros?</label>
+            <input type="text" id="altura">
+        </div>
+        <button class="btn-calcular" onclick="calcular()">Calcular</button>
+        <div class="result">
+            <p id="resultadoTamanhoPainel"></p>
+            <p id="resultadoTamanhoPlacas"></p>
+            <p id="resultadoResolucaoPixels"></p>
+            <p id="resultadoConsumo"></p>
+            <p id="resultadoPeso"></p>
+        </div>
+    </div>
+
+<footer>
+    <p>developed by @thiago-ribeiro1</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
