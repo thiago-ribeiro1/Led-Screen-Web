@@ -7,17 +7,12 @@ body {
 }
 
 .container {
-    width: auto;
-    height: auto;
+    width: 90%; 
+    max-width: 425px; 
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    position: fixed;
+    background: rgba(255, 255, 255, 0.9);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -55,7 +50,7 @@ h1 {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 15px; 
     right: 15px; 
 }
