@@ -1,10 +1,14 @@
+function replace(value) {
+    return value.replace(',', '.');
+}
+
 function calcular() {
     var pesoPlaca = parseInt(document.getElementById("pesoPlaca").value);
     var consumoPlaca = parseInt(document.getElementById("consumoPlaca").value);
     var largura = parseInt(document.getElementById("largura").value);
     var altura = parseInt(document.getElementById("altura").value);
-    var tamanhoHorizontalPlaca = parseFloat(document.getElementById("tamanhoHorizontalPlaca").value);
-    var tamanhoVerticalPlaca = parseFloat(document.getElementById("tamanhoVerticalPlaca").value);
+    var tamanhoHorizontalPlaca = parseFloat(replace(document.getElementById("tamanhoHorizontalPlaca").value));
+    var tamanhoVerticalPlaca = parseFloat(replace(document.getElementById("tamanhoVerticalPlaca").value));
     var pixelsHorizontal = parseInt(document.getElementById("pixelsHorizontal").value); 
     var pixelsVertical = parseInt(document.getElementById("pixelsVertical").value); 
     
