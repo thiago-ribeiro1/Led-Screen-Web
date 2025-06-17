@@ -1,62 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Led Screen</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <a href="https://www.freepik.com/free-vector/concave-led-wall-video-screen-with-glowing-blue-purple-dot-lights-illustration-grid-pattern-led-display-stadium-scene-curved-digital-panel-with-mesh-diode-lamps_9498737.htm" target="_blank">Image by upklyak <span class="freepik-text">on Freepik</span></a>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="form-box">
+        <form onsubmit="event.preventDefault(); calcular();">
+          <label class="form-title">Led Screen</label>
 
-    <div class="container">
-        <h1>Led Screen</h1>
-        <div class="form-group">
-            <label for="pesoPlaca">Peso da placa?</label>
-            <input type="text" id="pesoPlaca">
-        </div>
-        <div class="form-group">
-            <label for="consumoPlaca">Consumo de uma placa em Watts?</label>
-            <input type="text" id="consumoPlaca">
-        </div>
-        <div class="form-group">
-            <label for="largura">Tamanho do painel (largura) metros?</label>
-            <input type="text" id="largura">
-        </div>
-        <div class="form-group">
-            <label for="altura">Tamanho do painel (altura) metros?</label>
-            <input type="text" id="altura">
-        </div>
-        <div class="form-group">
-            <label for="tamanhoHorizontalPlaca">Tamanho horizontal da placa (metros)?</label>
-            <input type="text" id="tamanhoHorizontalPlaca">
-        </div>
-        <div class="form-group">
-            <label for="tamanhoVerticalPlaca">Tamanho vertical da placa (metros)?</label>
-            <input type="text" id="tamanhoVerticalPlaca">
-        </div> 
-        <div class="form-group">
-            <label for="pixelsHorizontal">Quantidade de pixels horizontal?</label>
-            <input type="text" id="pixelsHorizontal">
-        </div>
-        <div class="form-group">
-            <label for="pixelsVertical">Quantidade de pixels vertical?</label>
-            <input type="text" id="pixelsVertical">
-        </div>       
-        <button class="btn-calcular" onclick="calcular()">Calcular</button>
+          <input
+            type="text"
+            id="pesoPlaca"
+            placeholder="Peso da placa (kg)"
+            required
+          />
+          <input
+            type="text"
+            id="consumoPlaca"
+            placeholder="Consumo da placa (Watts)"
+            required
+          />
+          <input
+            type="text"
+            id="largura"
+            placeholder="Largura do painel (m)"
+            required
+          />
+          <input
+            type="text"
+            id="altura"
+            placeholder="Altura do painel (m)"
+            required
+          />
+          <input
+            type="text"
+            id="tamanhoHorizontalPlaca"
+            placeholder="Tamanho horizontal da placa (m)"
+            required
+          />
+          <input
+            type="text"
+            id="tamanhoVerticalPlaca"
+            placeholder="Tamanho vertical da placa (m)"
+            required
+          />
+          <input
+            type="text"
+            id="pixelsHorizontal"
+            placeholder="Pixels horizontais"
+            required
+          />
+          <input
+            type="text"
+            id="pixelsVertical"
+            placeholder="Pixels verticais"
+            required
+          />
+
+          <button type="submit">Calcular</button>
+        </form>
+
         <div class="result">
-            <p id="resultadoTamanhoPainel"></p>
-            <p id="resultadoTamanhoPlacas"></p>
-            <p id="resultadoResolucaoPixels"></p>
-            <p id="resultadoConsumo"></p>
-            <p id="resultadoPeso"></p>
+          <p id="resultadoTamanhoPainel"></p>
+          <p id="resultadoTamanhoPlacas"></p>
+          <p id="resultadoResolucaoPixels"></p>
+          <p id="resultadoConsumo"></p>
+          <p id="resultadoPeso"></p>
         </div>
+      </div>
     </div>
 
-<footer>
-    <p>developed by @thiago-ribeiro1</p>
-</footer>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
