@@ -17,7 +17,7 @@ A aplicação permite calcular automaticamente:
 
 ## 🛠️ Sobre o Desenvolvimento
 
-O projeto teve início há 2 anos com uma aplicação desktop desenvolvida em **Java**, que gerava um executável `.exe`. Posteriormente, a lógica foi migrada para a web com **HTML**, **CSS** e **JavaScript**.
+O projeto teve início em 2023 com uma aplicação desktop desenvolvida em **Java**, que gerava um executável `.exe`. Posteriormente, a lógica foi migrada para a web com **HTML**, **CSS** e **JavaScript**.
 
 ## 🎯 Objetivo
 
