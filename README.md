@@ -23,5 +23,3 @@ O projeto teve início em 2023 com uma aplicação desktop desenvolvida em **Jav
 
 Criar uma ferramenta prática e acessível para profissionais da área técnica de LED — como **técnicos de montagem, operadores de VJing e instaladores de painéis** — que necessitam realizar cálculos técnicos de forma eficiente no dia a dia.
 
-Desenvolvido por [@thiago-ribeiro1](https://github.com/thiago-ribeiro1)
-
